@@ -1,0 +1,32 @@
+Student ID:6942852
+Student name:Manas Negi
+UUID:94a7373d-5897-4e26-8d10-57bdfb66ba91
+==========
+Args:Namespace(model_mode='tf_efficientnet_b0', dataset_location='EEEM066_KnifeHunter', train_datacsv='dataset/train.csv', val_datacsv='dataset/validation.csv', test_datacsv='dataset/test.csv', saved_checkpoint_path='Knife-Effb0-LR1-Batch64', n_classes=543, num_workers=8, seed=0, resized_img_weight=224, resized_img_height=224, evaluate_only=False, model_path=None, epochs=10, batch_size=64, brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2, random_rotation=0, vertical_flip=0, horizontal_flip=0, random_erase=False, color_aug=False, optim='adam', learning_rate=0.0002, weight_decay=0.0005, momentum=0.9, sgd_dampening=0, sgd_nesterov=False, rmsprop_alpha=0.99, adam_beta1=0.9, adam_beta2=0.999, lr_scheduler='CosineAnnealingLR', stepsize=[20, 40], gamma=0.1)
+==========
+------------------------- [START 2025-12-02_11-51-14] -------------------------
+
+                           |  Train   |   Valid  |              |
+ | Mode  |  Iter  | Epoch  |   Loss   |    mAP   |     Time     |
+-------------------------------------------------------------------------------
+
+| train | 394.0 |   0.0 |    4.536 |   0.000 |  0 min 44 sec |
+| val   |   6.0 |   0.0 |    4.536 |   0.281 |  0 min 46 sec |
+| train | 394.0 |   1.0 |    1.339 |   0.281 |  1 min 21 sec |
+| val   |   6.0 |   1.0 |    1.339 |   0.406 |  1 min 21 sec |
+| train | 394.0 |   2.0 |    0.275 |   0.406 |  1 min 56 sec |
+| val   |   6.0 |   2.0 |    0.275 |   0.452 |  1 min 56 sec |
+| train | 394.0 |   3.0 |    0.093 |   0.452 |  2 min 31 sec |
+| val   |   6.0 |   3.0 |    0.093 |   0.465 |  2 min 31 sec |
+| train | 394.0 |   4.0 |    0.052 |   0.465 |  3 min 06 sec |
+| val   |   6.0 |   4.0 |    0.052 |   0.458 |  3 min 07 sec |
+| train | 394.0 |   5.0 |    0.035 |   0.458 |  3 min 41 sec |
+| val   |   6.0 |   5.0 |    0.035 |   0.456 |  3 min 42 sec |
+| train | 394.0 |   6.0 |    0.029 |   0.456 |  4 min 16 sec |
+| val   |   6.0 |   6.0 |    0.029 |   0.447 |  4 min 17 sec |
+| train | 394.0 |   7.0 |    0.024 |   0.447 |  4 min 51 sec |
+| val   |   6.0 |   7.0 |    0.024 |   0.469 |  4 min 52 sec |
+| train | 394.0 |   8.0 |    0.030 |   0.469 |  5 min 26 sec |
+| val   |   6.0 |   8.0 |    0.030 |   0.457 |  5 min 27 sec |
+| train | 394.0 |   9.0 |    0.024 |   0.457 |  6 min 01 sec |
+| val   |   6.0 |   9.0 |    0.024 |   0.452 |  6 min 02 sec |
